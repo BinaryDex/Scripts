@@ -253,7 +253,7 @@ local oldNameCall = gmt.__namecall
 
 game.StarterGui:SetCore("SendNotification", {
     Title = 'Chat Art Loaded!',
-    Text = 'Send Chat Art with '..prefix..'MESSAGEH.\nIt does not support special characters.',
+    Text = 'Send Chat Art with '..prefix..'MESSAGE.\n\nIt does not support special characters.',
     Icon = '',
     Duration = 5,
 })

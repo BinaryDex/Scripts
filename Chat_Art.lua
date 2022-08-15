@@ -1,7 +1,5 @@
 local prefix = "."
 
-
-
 local letters = {
     ["a"] = {
         "⬛⬛⬛⬛⬛",
@@ -254,8 +252,8 @@ setreadonly(gmt, false)
 local oldNameCall = gmt.__namecall
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = 'Prefix your message with '.. prefix,
-    Text = 'Made by LabGuy94',
+    Title = 'Chat Art Loaded!',
+    Text = 'Send Chat Art with '..prefix..'MESSAGEH.\nIt does not support special characters.',
     Icon = '',
     Duration = 5,
 })

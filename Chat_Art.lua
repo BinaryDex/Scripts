@@ -258,11 +258,6 @@ game.StarterGui:SetCore("SendNotification", {
     Duration = 5,
 })
 
-DexHub:Notification("DexHub ☕", "Send Chat Art with "..prefix.."MESSAGE.\nIt does not support special characters like { ] - + etc.")
-local sound = Instance.new("Sound", game.Workspace)
-sound.SoundId = "rbxassetid://9128519965"
-sound:Play()
-
 gmt.__namecall = newcclosure(function(self, ...)
     local args = {...}
     if tostring(self) == "SayMessageRequest" and tostring(getnamecallmethod()) == "FireServer" then

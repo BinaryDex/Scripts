@@ -116,7 +116,6 @@ function MessageBoxT.Show(option)
     MessageBox.Parent = GUI
     MessageBox.Position = CustomPos
     MessageBox.Position = UDim2.new(0, MessageBox.AbsolutePosition.X, 0, MessageBox.AbsolutePosition.Y)
-    MessageBox.AnchorPoint = Vector2.new(0.5, 0.5)
 
     --// Applying Options
     MessageBox["Message-Header"]["Box-Title"].Text = MessageTitle
